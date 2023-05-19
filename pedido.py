@@ -366,4 +366,4 @@ def update_food_delivery():
 
 
 if __name__ == '__main__':
-    pedido.run(debug=True, use_reloader=False, port=5001)
+    pedido.run(debug=True, use_reloader=False)
