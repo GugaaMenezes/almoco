@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pedido de Almoço</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="{{ url_for('static', filename='cart.js') }}"></script>
+        <link rel="stylesheet" type="text/css" href="/static/main.css">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='responsive.css') }}">
+    
+    </head>
+    
+<body>
+
+    <container>
+        <div class="d-flex justify-content-start flex-fill align-self-center">
+            <section id="section_index" >
+                <div id="md_index">
+                    <img src="/static/img/md_index.png" class="rounded mx-auto d-block">
+                </div><br>
+                <div class="align-self-center" id="menu_index">
+                    <div class="form-group">
+                        <form method="POST" action="/login">
+                            <div class="mb-2">
+                                <br>
+                                <p class="forms_data">Gerenciador de Risco ASA</p>
+                                <a class="btn btn btn btn-info" id="btn_login" href="http://127.0.0.1:5000/formulario" role="button" onclick="logout()">ACESSAR</a>
+                                <div>
+                                    
+                                </div>
+                                <br>
+
+                                <p class="forms_data">Max Day Almoco</p>
+                                <a class="btn btn btn btn-info" id="btn_login" href="http://127.0.0.1:5001/almoco" role="button" onclick="logout()">ACESSAR</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+        <div id="index_background"></div>
+        </div>
+        
+    </container>
+
+
+    <div></div>
+
+
+
+
+</body>
+
+</html>
